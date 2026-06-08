@@ -1,0 +1,48 @@
+      MERGE CONFLICTS IN GIT
+
+1. What causes merge conflicts?
+- A merge conflict happens when Git cannot automatically
+  combine changes from two branches.
+
+      Common Causes
+- Two branches edit the same line of code
+- One branch deletesa file while another edits it
+- Both branches changes the same file dirrectly
+- Merging files that have diverged for a long time
+
+2. How to identify a merge conflict
+ 
+   In the terminal:
+- when you try to merge git shows
+  a) CONFLICT (content) : Merge conflict in
+     file.txt
+
+   In the file itself:
+- Git marks conflict areas
+
+   In Git status
+- git status will show:
+  > "You have unmerged paths"
+
+3. Step-by-step resolution of merge conflicts
+
+- Step 1: Check conflict files
+
+  > git status
+
+- Step 2: Open the conflicted file
+  
+  > Look for markers
+
+- Step 3: Decide what to keep
+  - You can keep:
+    a) Keep your changes
+    b) Keep incoming changes
+    c) Combine both
+- Then remove all confict markers
+
+- Step 4: Mark conflict as resolved
+- Step 5: Commit the merge
+- Step 6: Push changes 
+   
+
