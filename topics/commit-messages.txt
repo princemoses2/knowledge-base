@@ -1,0 +1,43 @@
+   COMMIT MESSAGES IN GIT
+
+1. Why commit messages matter?
+ - Commit messages explain what changed and why it changed
+
+    Importance
+
+a) Help you understand your project later
+b) Help teammates follow your work
+c) Make debbuging easier
+d) Improve project history
+e) Useful in teamwork and open-source projects
+
+
+2. Seven rules of great commit messages
+   A. Use the imperative mood
+      - Write like a command: "Add login
+        feature"not"Added"
+   B. Keep it short and clear
+      - Ideally under 50 characters for the same title
+   C. Explain what, not how
+      - Focus on what changed not code details
+   D. Be specific
+      - Avoid vague messages like "fix stuff"
+   E. Use consistent style
+      - Same format across all commits
+   F. Separate subject and body
+      - Subject = short summary
+      - Body  = detailed explanation
+   G. Reference issues/task when possible
+      - Example: "Fix login bug #12"
+
+3. Good vs Bad commit messages
+
+- Bad example:
+  a) "fixed stuff"
+  b) "update"
+  c) "bug fix"
+
+- Good examples
+  a) "Fix navbar alignment issue"
+  b) "Add user authentication feature"
+  c) "Update README installation steps"
