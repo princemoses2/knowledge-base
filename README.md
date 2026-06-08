@@ -6,7 +6,9 @@ A community-driven collection of helpful programming and development tips.
 - Git Basics
 - GitHub Collaboration
 - Command Line Tips
-
+- Git Branching Strategies
+- Resolving Merge Conflicts
+- Writting Good Commit Messages
 ## How to Contribute
 1. Fork this repository
 2. Create a new branch: `topic/your-topic-name`
