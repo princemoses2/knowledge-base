@@ -1,0 +1,39 @@
+Git Branching Strategies
+
+1. Git Flow
+- A structured workflow used in large teams with formal releases.
+- main: Stable production code
+- Develop: Ongoing development work
+- Feature: New features
+- Releases: preparing a new version
+- Hotfix: Urgent production fixes
+
+2. GitHub Flow
+- A simple and modern workflow used in most web development.
+
+  - Only one main branch: Main
+  - Every change happens in a separate branch
+
+3. When to create a Branch
+
+- Create a branch whenever you:
+  a) Add a new feature
+  b) Fix a bug
+  c) Try out new ideas
+  d) Work on any task
+ 
+ N/B: Never work directly on the main
+
+4. Branch Naming Rules
+- Keep names simple and clear:
+- Examples:
+  - feature/login
+  - bugfix/navbar-error
+  - hotfix/app-crash
+
+- Rules:
+
+ - Use lowercase
+ - Use hyphens
+ - keep it short and meaningful
+
