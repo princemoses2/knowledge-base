@@ -1,4 +1,4 @@
-# Knowledge Base
+ # Knowledge Base
 
 A community-driven collection of helpful programming and development tips.
 
